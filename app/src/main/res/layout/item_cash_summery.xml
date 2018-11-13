@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:layout_height="130dp"
+android:background="@drawable/layout_bg"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Payment Id : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_payment_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/list_content_small_space_size"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Username : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_username"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/list_content_small_space_size"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Payment From : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_PaymentFrom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/list_content_small_space_size"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Email : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/list_content_small_space_size"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Payment To : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_PaymentTo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/list_content_small_space_size"
+            android:visibility="gone"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Mobile No : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_mobile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/list_content_small_space_size"
+            android:visibility="gone"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Amount : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/list_content_small_space_size"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Debit Amount : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_DebitAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/list_content_small_space_size"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Credit Amount : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_CreditAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/list_content_small_space_size"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Remarks : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_Remarks"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/list_content_small_space_size"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Date Time : "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/content_text_size"/>
+
+            <TextView
+                android:id="@+id/rec_trans_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_CashSummery_Reverse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/list_content_small_space_size"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Action : "
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="@dimen/content_text_size"/>
+
+        <TextView
+            android:id="@+id/txt_CashSummery_Reverse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.6"
+            android:background="@color/colorGreen"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:text="Reverse"
+            android:textSize="@dimen/content_text_size"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_CashSummery_ReverseDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/list_content_small_space_size"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Reverse Date : "
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="@dimen/content_text_size"/>
+
+        <TextView
+            android:id="@+id/txt_CashSummery_ReverseDateTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:text=""
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/content_text_size"/>
+    </LinearLayout>
+
+</LinearLayout>

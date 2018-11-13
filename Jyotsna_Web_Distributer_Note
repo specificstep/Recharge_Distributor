@@ -1,0 +1,413 @@
+----------------------------------------------------------------------------------------------------
+Jyotsna Web Distributer application
+----------------------------------------------------------------------------------------------------
+
+Registration name : distributer
+OTP : 883344, 4444
+Username : distributer
+Password : Admin@123
+
+--------------------------------------------------------
+2017-03-10
+--------------------------------------------------------
+New Task :
+- Add change password module in this application.
+- Same as Metro Enterprise Retailer application, get refrence from this application.
+- Test this application module.
+- Testing distributer application (Add balance 2 times thay chhe.)
+
+Running :
+- Testing distributer application (Add balance 2 times thay chhe.)
+
+Complete :
+- Add change password module in this application.
+
+Add balance testing :
+Request: {amount=10, mac_address=eciN5ueh_d8:APA91bFtOc7pvZdYMWvkZ-KrewUuCf1uikJep8o4DyyqBJlQ6B7S4YzHHRT9wYb6TKvPmzbHHkYiMEpIeQgmeSPFmFhMVYvTZLK7QbjnGeBvCXwDSdFcwzFigzwllLYXp6DN63UszcCv, otp_code=4444, username=distributer, userid=6}
+Response: {"status":"2","msg":"Amount Cannot Add More Than Balance"}
+
+request login: {password=tkb2Zpcb8jepE+tP26crKw==
+                                                                                  , mac_address=eciN5ueh_d8:APA91bFtOc7pvZdYMWvkZ-KrewUuCf1uikJep8o4DyyqBJlQ6B7S4YzHHRT9wYb6TKvPmzbHHkYiMEpIeQgmeSPFmFhMVYvTZLK7QbjnGeBvCXwDSdFcwzFigzwllLYXp6DN63UszcCv, otp_code=4444, username=distributer, user_type=2}
+																				  
+Response: {"status":"1","data":"xBxKXjV4GYcx+FwVHKnA9mwT934fFfGD8M00wPCtsiQTF+CuWRwDjX3ihuNVtqUkseSoe9CvL7T1kXGNqGuCw1gFR4bjoqBCUIMVUnGMgl1hlvVc822ZL1NlNJzPNEawTQ3Olzw+5bz7QLsQInFQOw=="}
+
+balance: {username=distributer, mac_address=eciN5ueh_d8:APA91bFtOc7pvZdYMWvkZ-KrewUuCf1uikJep8o4DyyqBJlQ6B7S4YzHHRT9wYb6TKvPmzbHHkYiMEpIeQgmeSPFmFhMVYvTZLK7QbjnGeBvCXwDSdFcwzFigzwllLYXp6DN63UszcCv, otp_code=4444}
+
+balance Response: {"status":"1","msg":"Send successfully","data":"rJPgIJjhgUeA9q7GY1aOBsOpsZX0vanQ+WFz9ki8Cxk="}
+
+Child Request: {amount=10, mac_address=eciN5ueh_d8:APA91bFtOc7pvZdYMWvkZ-KrewUuCf1uikJep8o4DyyqBJlQ6B7S4YzHHRT9wYb6TKvPmzbHHkYiMEpIeQgmeSPFmFhMVYvTZLK7QbjnGeBvCXwDSdFcwzFigzwllLYXp6DN63UszcCv, otp_code=4444, username=distributer, userid=6}
+
+Child Response: {"status":"2","msg":"Amount Cannot Add More Than Balance"}
+
+Child Request: {amount=10, mac_address=dNBuLUv7dmM:APA91bGM9iU6pBtMoRxNGQJXJOJSBxt4rOyiB2JSO25jIMIIDavpkTKgqvbCr4WfuePdNCWYRyPzI8TkcL_xmIzt5VRqnEbbOQ3Qm6K_b57M-WvTz2U2J1gOhlEjNFXKnT6PjX9HyEVy, otp_code=4444, username=distributer, userid=7}
+
+Child Response: {"status":1,"msg":"Balance Added Successfully","data":"GwHRs\/DDfTtAFZ+mD5SCa\/gR6AyA5EeQd+QhtO6t0gFH8k5fwrvSZcrGKM6+E5BuISa+T1Ki4+lOwN9WQ6f87trwHRZSUT9JVKtR2nbq7u3mF3yba4YHAbu6uwlveS0i"}
+
+Child Request: {amount=5, mac_address=dNBuLUv7dmM:APA91bGM9iU6pBtMoRxNGQJXJOJSBxt4rOyiB2JSO25jIMIIDavpkTKgqvbCr4WfuePdNCWYRyPzI8TkcL_xmIzt5VRqnEbbOQ3Qm6K_b57M-WvTz2U2J1gOhlEjNFXKnT6PjX9HyEVy, otp_code=4444, username=distributer, userid=6}
+
+Child Response: {"status":1,"msg":"Balance Added Successfully","data":"GwHRs\/DDfTtAFZ+mD5SCa\/gR6AyA5EeQd+QhtO6t0gFH8k5fwrvSZcrGKM6+E5Buo2pAJYG508DxP2ZCBQyTgYqHCcokdlRPYoIAu6z5WbHPPyaYXuzjQDu1LdsO5lYh"}
+
+Phone - Videocan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Change password testing :
+Admin@123 = stzjAiOAg34+eJg/ctHUzQ==
+aaa = dWnAanwIN6Vmk6cP1NTU7w==
+bbb = HEEaXOAPx5aNYWoqcIj0vw==
+ccc = HEEaXOAPx5aNYWoqcIj0vw==
+lll = JnIa6Bs20/ppzLbABvS4+w==
+
+NDLGmrukDIb76o+qn7XJxA==
+
+f0GCInRM2_Q:APA91bGFARQECnLdZaXW1sNvnZ0RGqYSG_pj1HSUrGehJACloQAxYem9S0PVHZltRBh8YNF7k-wmkmASHSlNQymGuy3o68aZvNQO-loW1XxfLeb-8Hu1d9FBRKBmmY-RkkJzQ85GXIT2
+
+Change Password Req Res : {mac_address=f0GCInRM2_Q:APA91bGFARQECnLdZaXW1sNvnZ0RGqYSG_pj1HSUrGehJACloQAxYem9S0PVHZltRBh8YNF7k-wmkmASHSlNQymGuy3o68aZvNQO-loW1XxfLeb-8Hu1d9FBRKBmmY-RkkJzQ85GXIT2, new_password=HEEaXOAPx5aNYWoqcIj0vw==
+                                                                             , otp_code=4444, old_password=dWnAanwIN6Vmk6cP1NTU7w==
+                                                                             , username=distributer}
+                                                                             {"status":"1","msg":"Password change successfully"}
+
+Req.Res.: Change Password Req Res : {mac_address=f0GCInRM2_Q:APA91bGFARQECnLdZaXW1sNvnZ0RGqYSG_pj1HSUrGehJACloQAxYem9S0PVHZltRBh8YNF7k-wmkmASHSlNQymGuy3o68aZvNQO-loW1XxfLeb-8Hu1d9FBRKBmmY-RkkJzQ85GXIT2, new_password=N2lRX9ypJGXhtCY+Oob6KQ==
+                                                                             , otp_code=4444, old_password=NDLGmrukDIb76o+qn7XJxA==
+                                                                             , username=distributer}
+                                                                             {"status":"1","msg":"Password change successfully"}
+																			 
+Req.Res.: Change Password Req Res : {mac_address=f0GCInRM2_Q:APA91bGFARQECnLdZaXW1sNvnZ0RGqYSG_pj1HSUrGehJACloQAxYem9S0PVHZltRBh8YNF7k-wmkmASHSlNQymGuy3o68aZvNQO-loW1XxfLeb-8Hu1d9FBRKBmmY-RkkJzQ85GXIT2, new_password=dWnAanwIN6Vmk6cP1NTU7w==
+                                                                             , otp_code=4444, old_password=N2lRX9ypJGXhtCY+Oob6KQ==
+                                                                             , username=distributer}
+                                                                             {"status":"2","msg":"Old password not match"}
+																			 
+Change Password Req Res : {mac_address=f0GCInRM2_Q:APA91bGFARQECnLdZaXW1sNvnZ0RGqYSG_pj1HSUrGehJACloQAxYem9S0PVHZltRBh8YNF7k-wmkmASHSlNQymGuy3o68aZvNQO-loW1XxfLeb-8Hu1d9FBRKBmmY-RkkJzQ85GXIT2, new_password=PQVR27jKvg5PGdJZgL64gQ==
+                                                                             , otp_code=4444, old_password=dWnAanwIN6Vmk6cP1NTU7w==
+                                                                             , username=distributer}
+                                                                             {"status":"2","msg":"Old password not match"}
+																			 
+Change Password Req Res : {mac_address=f0GCInRM2_Q:APA91bGFARQECnLdZaXW1sNvnZ0RGqYSG_pj1HSUrGehJACloQAxYem9S0PVHZltRBh8YNF7k-wmkmASHSlNQymGuy3o68aZvNQO-loW1XxfLeb-8Hu1d9FBRKBmmY-RkkJzQ85GXIT2, new_password=JnIa6Bs20/ppzLbABvS4+w==
+                                                                             , otp_code=4444, old_password=PQVR27jKvg5PGdJZgL64gQ==
+                                                                             , username=distributer}
+                                                                             {"status":"2","msg":"Old password not match"}
+																			 
+request login: {password=NDLGmrukDIb76o+qn7XJxA==
+                                                                                  , mac_address=f0GCInRM2_Q:APA91bGFARQECnLdZaXW1sNvnZ0RGqYSG_pj1HSUrGehJACloQAxYem9S0PVHZltRBh8YNF7k-wmkmASHSlNQymGuy3o68aZvNQO-loW1XxfLeb-8Hu1d9FBRKBmmY-RkkJzQ85GXIT2, otp_code=4444, username=distributer, user_type=2}
+																				  
+--------------------------------------------------------
+2017-03-16
+--------------------------------------------------------
+New Task :
+
+Running :
+
+Completed :
+- Cash summery list background ma color white ave chhe in old android version.
+- Changes 
+from 
+android:popupTheme="@android:style/ThemeOverlay.Material.Dark"
+to 
+android:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+
+--------------------------------------------------------
+2017-03-17
+--------------------------------------------------------
+New Task :
+
+Running :
+- Call web service for cashbook.
+- Test cashbook web service
+
+Completed :
+- Add cash book menu in dash board.
+
+Cashbook: {start_limit=0, otp_code=4444, username=distributer, user_type=4, to=2017-03-17, mac_address=cAud_L0pkMU:APA91bFlngwk9YyL4W_UZZvj-lgHhm59RjRoCTm61yRFCVYp-6Suf0IxRWMM7eOL-lMr1S_e8nuC658NUwzLQv_aWPDQGfo8YBneLvU3lW-SBYmxmssxw5XyDSTzIrY1X3x2ebz8UWYB, end_limit=10, from=2017-03-17}
+
+Cashbook: {start_limit=0, otp_code=4444, username=distributer, user_type=2, to=2017-03-17, mac_address=cAud_L0pkMU:APA91bFlngwk9YyL4W_UZZvj-lgHhm59RjRoCTm61yRFCVYp-6Suf0IxRWMM7eOL-lMr1S_e8nuC658NUwzLQv_aWPDQGfo8YBneLvU3lW-SBYmxmssxw5XyDSTzIrY1X3x2ebz8UWYB, end_limit=10, from=2017-03-17}
+
+Cashbook: {start_limit=0, otp_code=4444, username=distributer, user_type=2, to=2017-03-17, mac_address=cAud_L0pkMU:APA91bFlngwk9YyL4W_UZZvj-lgHhm59RjRoCTm61yRFCVYp-6Suf0IxRWMM7eOL-lMr1S_e8nuC658NUwzLQv_aWPDQGfo8YBneLvU3lW-SBYmxmssxw5XyDSTzIrY1X3x2ebz8UWYB, end_limit=10, from=2017-03-01}
+
+Cashbook: {start_limit=0, otp_code=4444, username=distributer, user_type=2, to=2017-03-17, mac_address=d9Wavvv87Uo:APA91bHuT_9vSTtEF2a0IhRNnApnZ1UnyuoTlED0U1ogjxWFZ8Y45NV-TA_8oep3Hz6NGMbRvd5KZzbfENmu_MtEb0stPePLx1oheQrXHov-g0whslqOt8Zezzjjb6HYdMh8yn6DSkaN, end_limit=10, from=2017-03-01}
+
+CashBook Response: {"status":"0","message":"Invalid details"}
+
+Cashbook: {start_limit=0, otp_code=4444, username=distributer, user_type=2, to=2017-03-17, mac_address=e4XLHiIOxHc:APA91bGzqvn5O8vASf6jti7i9IARQ4RuaycWNr80BtSwvTlshYvBIYujYG4wOSxUYi1gE71f9JERprVRv_KMmXhkLyAE5vFud5Z7CWzc5uqxq13MX7DMsZPXn3M9BuKCk65ksUj4TV7-, end_limit=10, from=2017-03-17}
+
+Cashbook: {start_limit=0, otp_code=4444, username=distributer, user_type=2, to=2017-03-17, mac_address=e4XLHiIOxHc:APA91bGzqvn5O8vASf6jti7i9IARQ4RuaycWNr80BtSwvTlshYvBIYujYG4wOSxUYi1gE71f9JERprVRv_KMmXhkLyAE5vFud5Z7CWzc5uqxq13MX7DMsZPXn3M9BuKCk65ksUj4TV7-, end_limit=10, from=2017-03-01}
+
+Reg Response: {"status":"2","msg":"Invalid Username or Password"}
+
+request registration: {username=reseller, mac_address=fUIZgH93Fpg:APA91bF8dsgjXC5Wn7idiTIIO1Hjkq9B3YY7DC_i5LqOadCOpv-M_Z0kFRL8fiaXLgdc9O93BZmv7XJdzHW3HrEHIII_1VCxzu0F_a1ynqUn1-KKm7h56HOdQ4gtR4oZecbEwIW50RHL, user_type=2}
+
+Cashbook: {start_limit=0, otp_code=4444, username=distributer, user_type=2, to=2017-03-17, mac_address=cQr8bPb7Bcw:APA91bFA9yjP7yddiOwKn2HkVXH8V-m578tBdu786sDLbax171Z7qF8uiPc5ydLXgMnh09ifQjuc18mfrQkqM1OzG0Kv2RFo1uibIyr0x_6olyfVkEpyo2A4KEN1C7TRNUzooiFJ7kag, end_limit=10, from=2017-03-01}
+
+Request: {to_date=2017-03-17, mac_address=cQr8bPb7Bcw:APA91bFA9yjP7yddiOwKn2HkVXH8V-m578tBdu786sDLbax171Z7qF8uiPc5ydLXgMnh09ifQjuc18mfrQkqM1OzG0Kv2RFo1uibIyr0x_6olyfVkEpyo2A4KEN1C7TRNUzooiFJ7kag, otp_code=4444, username=distributer, user_type=3, userid=, from_date=2017-03-17}
+
+--------------------------------------------------------
+2017-03-20
+--------------------------------------------------------
+New Task :
+
+Receiver: sender : +918200564065
+Receiver: separated : [Ljava.lang.String;@45c8162
+Receiver: smsMessage : 4444
+
+sender : +918200564065
+Receiver: separated : [Ljava.lang.String;@45c8162
+Receiver: smsMessage : SPECIF : 4444
+Receiver: separated.length : 1
+
+Complete Task :
+- At otp verification time other message stop application.
+
+java.lang.ArrayIndexOutOfBoundsException
+separated[0] : +918200564065
+
+// register receiver
+        registerReceiver(smsReceiver, filter);
+		
+ @Override
+    protected void onDestroy() {
+        Log.d("Registration", "On destroy call");
+        if (smsReceiver != null) {
+            unregisterReceiver(smsReceiver);
+            smsReceiver = null;
+            Log.d("Registration", "Unregister sms receiver done");
+        }
+        super.onDestroy();
+    }
+	
+--------------------------------------------------------
+2017-03-21
+--------------------------------------------------------
+New Task :
+- Change Notification icon.
+
+--------------------------------------------------------
+2017-03-22
+--------------------------------------------------------
+New Task : 
+
+Running Task :
+- Test distributer application.
+- Not getting Cashbook response
+
+Completed Task : 
+
+Requirement :
+
+--------------------------------------------------------
+2017-03-24
+--------------------------------------------------------
+- Cashbook screen unfortunatlly stop problem solved.
+- Add validation for volley sending data twice
+- Add LogMessage class and change all log message.
+// --- START --- Avoid Android volley for sending data twice
+jsonObjReq.setRetryPolicy(new DefaultRetryPolicy(
+    0,
+	DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+    DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+// --- END ---
+
+TransSearchFragment ma all retailer search kre tyare all pass krvanu thase.
+
+www.javatpoint.com
+http://www.androidbegin.com
+http://www.worldbestlearningcenter.com
+http://androidforbegineers.blogspot.com
+http://androidsourcecode.blogspot.com
+https://www.tutorialspoint.com/
+http://www.addictivetips.com/mobile/how-to-install-any-app-as-system-app-on-android/
+http://www.androidauthority.com/install-user-app-as-system-app-how-to-93522/
+
+
+--------------------------------------------------------
+2017-03-30
+--------------------------------------------------------
+- Set old password if user remember password at login time
+- Save new password in database if user remember password
+- Send change password notification
+
+- Test Distributer application
+Registration
+OTP
+Login
+Update Data
+Add balance 
+Cash summery 
+Cash book
+Change password
+
+New Task :
+Home button
+Bottom navigation
+Notification
+
+Running task :
+
+
+Completed task :
+Home button
+Bottom navigation
+Notification
+
+Add BalanceMessage : Balance Updated Successfully. Payment Id : 0314152630301681922382017696147
+
+Notification: title : Add BalanceMessage : Balance Updated Successfully. Payment Id : 0314152630301681922382017696147
+
+Test Message: Data : Balance Updated Successfully. Payment Id : 0314193030351681922382017341949
+
+Key store file not available in distributer application
+
+
+Small screen ma button hide thay chhe
+
+--------------------------------------------------------
+2017-04-03
+--------------------------------------------------------
+- Cash summery problem
+- Remove bottom bar in add balance screen
+- Color change in cash book and all droup down
+- Hide detaile in cash book
+- Add new reset button
+
+Changes in :
+TransSearchFragment
+fragment_trans_search
+activity_main_testing
+-----------------------
+HomeActivity
+VerifyRegistrationActivity
+SmsReceiver
+content_home
+fragment_recharge_main
+-----------------------
+Popup color change :
+fragment_trans_search
+fragment_recharge_main
+
+--------------------------------------------------------
+2017-04-04
+--------------------------------------------------------
+- Old fragment invisible in background
+	Solve this problem by add [android:clickable="true"] in main layout
+	
+Changes in :
+HomeActivity
+fragment_update_data
+activity_change_password
+
+--------------------------------------------------------
+2017-04-07
+--------------------------------------------------------
+
+- Cash book ? 
+
+Completed Task :
+Security : 
+- Remove unnessory permission
+
+Login : 
+- Add wrong password dialog with number of attempts counter.
+- Add dialog for 3 time password wrong.
+- Show and hide password problem solved.
+- Manage login time exception 
+
+Verification : 
+- Add timer for 2 minit 
+- Resend message - Timer 
+- If timer is stop disable edit text
+
+GUI problems : 
+- Shortcut problem. 
+- Change all list view scroll color as white. 
+- Display logout only in navigation drawer.  
+
+Cash summery :
+- Check cash summery response
+	"Payment Id": " 0004051115301171681922017889136",
+    "Payment From": "6 - SSUSPL reseller 3",
+    "Payment To": "3 - ssuspl retailer 4",
+    "Debit Amount": "20",
+    "Credit Amount": 0,
+    "Remarks": "Direct Payment",
+    "Datetime": "2017-04-05 15:11:00"
+- Old response 
+	Payment Id
+	Payment From
+	Amount
+	Datetime
+	
+Notification :
+- Display read date time in notification dialog and list.
+- Remove notification after read message in notification screen.
+- Change list view scroll color as white.
+- Add receiver for update notification message and update unread message counter
+- In drawer display notification unread message counter.
+- Create custom navigation drawer for display total unread message.
+
+Change password :
+- Show / hide problem.
+- Change password change notification message
+
+Update : 
+- Update data after 1st time login.
+- Display last update date in update screen.
+- Remove bottom navigation and drawer in update screen.
+- Add notification after update data.
+
+Bottom navigatin :
+- Remove logout from bottom navigation.
+
+--------------------------------------------------------
+2017-04-10
+--------------------------------------------------------
+Test application :
+Security
+Login
+Verification
+GUI problems
+Notification
+	- In Notification found 1 bug, in navigation menu after 1 unread message not update.
+Change password
+Update
+Bottom navigatin
+Cash summery
+- Check cash summery response
+	"Payment Id": " 0004051115301171681922017889136",
+    "Payment From": "6 - SSUSPL reseller 3",
+    "Payment To": "3 - ssuspl retailer 4",
+    "Debit Amount": "20",
+    "Credit Amount": 0,
+    "Remarks": "Direct Payment",
+    "Datetime": "2017-04-05 15:11:00"
+- Old response 
+	Payment Id
+	Payment From
+	Amount
+	Datetime
+	Payment To
+	
+--------------------------------------------------------
+2017-04-11
+--------------------------------------------------------
+- Manage create shortcut function.
+- Add new field in Cash summery.
+- Add dynamic bottom bar
+- In add balance user id and amount field send in encrypted format.
+
+--------------------------------------------------------
+2017-04-13
+--------------------------------------------------------
+- Change in transaction search
+- In cash summery response there is problem.
+Online response : []
+Local response : {"data":[]}

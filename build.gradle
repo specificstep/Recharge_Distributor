@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: 'buildsystem/dependencies.gradle'
+
+buildscript {
+    repositories {
+        jcenter()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.google.gms:google-services:3.1.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        //pl run at least one time in device
+
+    }
+}
+
+allprojects {
+    ext {
+        androidApplicationId = 'specificstep.com.perfectrecharge_dist'
+        androidVersionCode = 9
+        androidVersionName = "1.9"
+       // androidVersionCode = 7
+       // androidVersionName = "1.6.0"
+        testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
+        testApplicationId = 'specificstep.com.perfectrecharge_dist.test'
+        repositories {
+            maven { url 'https://maven.fabric.io/public' }
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
